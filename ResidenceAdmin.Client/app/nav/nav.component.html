@@ -1,0 +1,18 @@
+﻿<div>
+	<nav class="title">
+		<span>Document Generator</span>
+	</nav>
+
+</div>
+<div *ngIf="IsUserAuthenticated()" class="">
+	<nav class="alignright">
+		<span class="username">Elena </span>
+		<a class="nav-item leftborder" (click)="Logout()">Logout</a>
+	</nav>
+</div>
+<div *ngIf="!IsUserAuthenticated()">
+	<nav class="leftborder alignright">
+		<a class="nav-item " routerLink='/login' routerLinkActive='active'>Sign In</a>
+		<a class="nav-item leftborder" routerLink='/signup' routerLinkActive='active'>Sign Up</a>
+	</nav>
+</div>

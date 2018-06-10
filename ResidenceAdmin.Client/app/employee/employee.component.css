@@ -1,0 +1,26 @@
+﻿.employeesContainer {
+  width: 520px;
+  height: 400px;
+  position: relative;
+  left: 35%;
+  padding-top: 25px;
+  border: 1px solid #efedee;
+  border-bottom: 2px solid #efedee;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-top: 35px; }
+  .employeesContainer div.span {
+    padding: 10px; }
+
+.employeeButtons {
+  width: 170px;
+  position: relative;
+  left: 30px;
+  padding-top: 25px;
+  margin: 0; }
+  .employeeButtons button {
+    padding: 5px;
+    color: #efedee;
+    border-bottom: 2px solid #efedee;
+    display: block; }
+

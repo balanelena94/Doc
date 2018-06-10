@@ -1,0 +1,85 @@
+﻿.leftborder {
+	border-left: 1px solid #f7dce3;
+	height: 31px;
+	margin-top: 2px;
+}
+
+.rightborder {
+	border-right: 1px solid #f7dce3;
+	height: 31px;
+	margin-top: 2px;
+}
+
+nav {
+	padding: 0 5px 0 5px;
+	float: left;
+	height: 31px;
+	width:160px;
+	line-height: .8em;
+	cursor: default;
+}
+
+nav.title {
+	width: 200px;
+	line-height: 1.9em;
+	font-size: 18px;
+	font-family: Arial;
+	padding: 0 10px;
+	color: #fff;
+}
+
+nav.alignright {
+	float: right;
+	padding-top: 5px;
+}
+
+div nav.alignright span .username {
+	vertical-align: middle;
+	font-size: 22px;
+	line-height: 1.9em;
+	font-family: Arial;
+	padding: 0 10px;
+	color: #fff;
+	padding-top: 5px;
+}
+
+nav.alignright span .username::after {
+	content: "g";
+	font-size: 24px;
+	vertical-align: bottom;
+	color: #fff;
+}
+
+nav a.nav-item {
+	text-decoration: none;
+	color: #fff;
+	vertical-align: middle;
+	outline: 0;
+	font-size: 14px;
+	line-height: 1.4em;
+	cursor: pointer;
+	padding: 0 10px;
+}
+
+nav a.nav-item:hover {
+	color: white;
+}
+
+nav a.nav-item.search {
+	padding-left: 6px;
+}
+
+nav a.nav-item.book-pin {
+	font-size: 25px;
+	padding-right: 4px;
+	padding-left: 3px;
+}
+
+nav a.nav-item.settings {
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+nav a.nav-item.settings i {
+	vertical-align: middle;
+}

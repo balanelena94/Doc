@@ -1,0 +1,28 @@
+﻿form.signupContainer {
+	width: 320px;
+	height: 400px;
+	position: relative;
+	left: 35%;
+	padding-top: 25px;
+	border: 1px solid #efedee;
+	border-bottom: 2px solid #efedee;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+	margin-top: 35px;
+
+	div.field {
+		padding: 10px;
+
+		input {
+			width: 100%;
+			border-radius: 1px;
+			font-style: italic;
+		}
+
+		button {
+			position: relative;
+			left: 25%;
+			width: 50%;
+		}
+	}
+}

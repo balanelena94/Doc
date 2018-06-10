@@ -1,0 +1,14 @@
+﻿.header-container {
+  background-color: #8c082b;
+  height: calc(31px + 2px + 2px);
+  width: 100vw;
+  margin: 0 auto;
+  color: white; }
+
+.body-container {
+  width: calc(100vw - 20px);
+  height: calc(100vh - 40px);
+  margin: 0 auto;
+  padding-top: 14px;
+  background-color: #FAFBFC; }
+

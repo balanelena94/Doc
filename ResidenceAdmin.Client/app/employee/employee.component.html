@@ -1,0 +1,20 @@
+﻿<div>
+	<div class="employeeButtons">
+		<button>Import from excel</button>
+		<button>Add</button>
+	</div>
+	<div  class="employeesContainer">
+		<div>
+			<span>First Name</span>
+			<span>Last Name</span>
+			<span>CNP </span>
+		</div>
+		<div>
+			<div *ngFor="let empployee of employees">
+				<span>employee.FirstName</span>
+				<span>employee.LastName</span>
+				<span>employee.Cnp </span>
+			</div>
+		</div>
+	</div>
+</div>

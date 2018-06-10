@@ -1,0 +1,30 @@
+﻿[
+  {
+    "outputFile": "/app/app.component.css",
+    "inputFile": "/app/app.component.scss"
+  },
+  {
+    "outputFile": "src/app/nav/nav.component.css",
+    "inputFile": "src/app/nav/nav.component.scss"
+  },
+  {
+    "outputFile": "app/app.component.css",
+    "inputFile": "app/app.component.scss"
+  },
+  {
+    "outputFile": "app/nav/nav.component.css",
+    "inputFile": "app/nav/nav.component.scss"
+  },
+  {
+    "outputFile": "app/user/sign-in/sign-in.component.css",
+    "inputFile": "app/user/sign-in/sign-in.component.scss"
+  },
+  {
+    "outputFile": "app/user/sign-up/sihn-up.component.css",
+    "inputFile": "app/user/sign-up/sihn-up.component.scss"
+  },
+  {
+    "outputFile": "app/employee/employee.component.css",
+    "inputFile": "app/employee/employee.component.scss"
+  }
+]
